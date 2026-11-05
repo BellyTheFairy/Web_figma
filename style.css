@@ -1,0 +1,510 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    color: #1a1a1a;
+    line-height: 1.6;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1, h2, h3, h4 {
+    font-family: Georgia, serif;
+    color: #111;
+}
+
+p {
+    font-size: 14px;
+    color: #555;
+}
+
+.header,
+.section1,
+.section2,
+.section3,
+.section4,
+.section5,
+.section6,
+.section7,
+.cta,
+.footer {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-left {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.title-img {
+    width: 24px;
+    height: 24px;
+}
+
+.title h2 {
+    font-size: 20px;
+    color: #0070A0;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.menu a,
+.top a {
+    font-size: 14px;
+    color: #333;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.buttons,
+.button {
+    background: #0070A0;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.buttons:hover,
+.button:hover {
+    background: #005a80;
+}
+
+.button.white {
+    background: #fff;
+    color: #0070A0;
+}
+
+.button.white:hover {
+    background: transparent;
+    color: #fff;
+}
+
+.centre {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.centre-text,
+.centre-pic,
+.care-text,
+.care-pic,
+.banner-pic,
+.banner-text {
+    flex: 1;
+}
+
+.centre-text h1 {
+    font-size: 42px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.centre-text p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    max-width: 400px;
+}
+
+.a1 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.a1 a,
+.blog-head a {
+    color: #0070A0;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.section2 {
+    text-align: center;
+}
+
+.slogan p {
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.link1,
+.link2,
+.link3,
+.link4 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #888;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.links-img {
+    width: 20px;
+    height: 20px;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+.card1,
+.card2,
+.card3 {
+    flex: 1;
+    padding: 30px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card1 {
+    background-color: #fef9c3;
+}
+
+.card2 {
+    background-color: #cffafe;
+}
+
+.card3 {
+    background-color: #fce7f3;
+}
+
+.card-img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+    object-fit: contain;
+}
+
+.card1 h3,
+.card2 h3,
+.card3 h3 {
+    font-size: 18px;
+}
+
+.care {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.care-text h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.acc {
+    list-style: none;
+}
+
+.acc li {
+    border-bottom: 1px solid #eee;
+    padding: 15px 0;
+}
+
+.acc-title {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    color: #333;
+    cursor: pointer;
+}
+
+.acc p {
+    margin-top: 10px;
+    display: none;
+}
+
+.acc li.open p {
+    display: block;
+}
+
+.section5 h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    max-width: 250px;
+}
+
+.about-list {
+    display: flex;
+    gap: 30px;
+}
+
+.about-item {
+    flex: 1;
+}
+
+.about-item h4 {
+    margin-bottom: 10px;
+}
+
+.banner {
+    background: #116b9d;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.banner-in {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.banner-text h2 {
+    color: #fff;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.banner-text p {
+    color: #d0eff5;
+    margin-bottom: 20px;
+}
+
+.checks {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.checks li {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.section6 h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.sub {
+    margin-bottom: 20px;
+    max-width: 600px;
+}
+
+.tasks-list {
+    display: flex;
+    gap: 20px;
+}
+
+.task {
+    flex: 1;
+}
+
+.task h4 {
+    margin-bottom: 10px;
+}
+
+.blog-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.blog-list {
+    display: flex;
+    gap: 20px;
+}
+
+.post {
+    flex: 1;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.post-pic {
+    height: 200px;
+    overflow: hidden;
+}
+
+.post-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.post-body {
+    padding: 20px;
+}
+
+.tag {
+    font-size: 12px;
+    font-weight: 600;
+    padding: 3px 8px;
+    border-radius: 3px;
+    background: #d0eff5;
+    color: #116b9d;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.post-body h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.post-body p {
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.date {
+    font-size: 12px;
+    color: #888;
+}
+
+.cta-box {
+    background: #e9f2f9;
+    padding: 40px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.cta-box h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.cta-box p {
+    margin-bottom: 20px;
+}
+
+.cta-feats {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 12px;
+    color: #555;
+}
+
+.footer {
+    border-top: 1px solid #eee;
+}
+
+.foot-grid {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 20px;
+}
+
+.foot-brand,
+.foot-news {
+    flex: 1.5;
+}
+
+.foot-col {
+    flex: 1;
+}
+
+.foot-brand p,
+.foot-news p,
+.foot-col a {
+    font-size: 13px;
+    color: #555;
+}
+
+.foot-brand p {
+    margin-top: 10px;
+    color: #888;
+}
+
+.foot-col h4,
+.foot-news h4 {
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.foot-col a {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.foot-news p {
+    margin-bottom: 15px;
+}
+
+.input {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.input input {
+    border: none;
+    outline: none;
+    flex: 1;
+    font-family: inherit;
+}
+
+.input button {
+    background: none;
+    border: none;
+    color: #0070A0;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.foot-bottom {
+    text-align: center;
+    font-size: 12px;
+    color: #888;
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+}
